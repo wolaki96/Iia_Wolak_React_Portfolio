@@ -3,7 +3,7 @@ import Nav from './nav';
 import Resume from './pages/resume';
 import About from './pages/about';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Contact from './pages/contact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -19,16 +19,19 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+        return <Contact />;
+      }
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+      
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+      
       {renderPage()}
     </div>
   );
