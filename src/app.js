@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
 import './App.css';
-import Nav from "./components/pages/HeaderNav.js";
+import Nav from "./components/pages/HeaderNav";
 import About from "./components/pages/about";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
-import Footer from "./components/Footer";
+import Portfolio from "./components/pages/Portfolio";
+import Contact from "./components/pages/contact";
+import Resume from "./components/pages/resume";
+import Footer from "./components/pages/footer";
 
 function App() {
 
