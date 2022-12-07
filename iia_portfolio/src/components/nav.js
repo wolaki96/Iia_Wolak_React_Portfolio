@@ -9,7 +9,7 @@ function Nav({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+          
 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
