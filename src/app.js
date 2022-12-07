@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import './App.css';
-import Nav from "./components/HeaderNav";
-import About from "./components/About";
+import Nav from "./components/pages/HeaderNav.js";
+import About from "./components/pages/about";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
