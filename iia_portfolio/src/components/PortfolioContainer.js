@@ -33,6 +33,7 @@ export default function PortfolioContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       
       {renderPage()}
+      <footer>Contact Me</footer>
     </div>
   );
 }
