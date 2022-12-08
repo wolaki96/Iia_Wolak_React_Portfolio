@@ -125,3 +125,9 @@ img:hover {
  
   
 }
+.border-left{
+  border-style: inset;
+  border-width: thick;
+  border-color: white
+
+}
