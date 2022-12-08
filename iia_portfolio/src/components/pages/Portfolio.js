@@ -8,16 +8,49 @@ export default function Portfolio() {
       {
           name: 'Novel Sips',
           description: 'Provide a short description...',
-         
           link: "https://mmllively.github.io/Novel_Sips/",
           repo: "https://github.com/mmllively/Novel_Sips/",
-          img: NovelSips,
+          img: NovelSips
           
       },
+        {
+            name: 'Novel Sips',
+            description: 'Provide a short description...',
+            link: "https://mmllively.github.io/Novel_Sips/",
+            repo: "https://github.com/mmllively/Novel_Sips/",
+            img: NovelSips
+        },
+        {
+        name: 'Novel Sips',
+        description: 'Provide a short description...',
+        link: "https://mmllively.github.io/Novel_Sips/",
+        repo: "https://github.com/mmllively/Novel_Sips/",
+        img: NovelSips   
+        },
+        {
+            name: 'Novel Sips',
+            description: 'Provide a short description...',
+            link: "https://mmllively.github.io/Novel_Sips/",
+            repo: "https://github.com/mmllively/Novel_Sips/",
+            img: NovelSips   
+            },
+            {
+                name: 'Novel Sips',
+                description: 'Provide a short description...',
+                link: "https://mmllively.github.io/Novel_Sips/",
+                repo: "https://github.com/mmllively/Novel_Sips/",
+                img: NovelSips   
+                }, {
+                    name: 'Novel Sips',
+                    description: 'Provide a short description...',
+                    link: "https://mmllively.github.io/Novel_Sips/",
+                    repo: "https://github.com/mmllively/Novel_Sips/",
+                    img: NovelSips   
+                    },
     ];
   return (
       <div className='projectpgcontainer'>
-          <h2 className='portfoliopgtitle'>Portfolio</h2>
+          <h2 className='card-title'>My Projects</h2>
 
           {project.map((element) => {
               return <Project name={element.name}
