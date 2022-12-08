@@ -46,8 +46,10 @@ color: plum;
 }
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
+	background-size: 10000% 10000%;
+  background-repeat: no-repeat;
 	animation: gradient 15s ease infinite;
+  
 	
 }
 
@@ -62,11 +64,45 @@ body {
 		background-position: 0% 50%;
 	}
 }
-li{
+
+.tabs{
+  color:#e627b6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: right;
   list-style: none;
+  display:flex;
+  justify-content: center;
 }
 .navbar {
-  background-color: #474150;
+  background-color: #1d0641;
+  margin-left: 0%;
+  margin-right: 0%;
+ 
 }
-
-
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;          /* Footer height */
+}
+h1 {
+  color: #13030f;;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size: 50px;
+  margin:auto;
+}
+img{
+  border-radius: 8px;
+  flex-wrap: wrap;
+  
+  
+}
+img:hover {
+  box-shadow: 0 0 5px 5px rgba(228, 213, 236, 0.664);
+}
+.projectcard{
+  padding-left: 10px;
+}
