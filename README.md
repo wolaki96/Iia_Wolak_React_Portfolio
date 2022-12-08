@@ -19,7 +19,7 @@ My motivation for this project was to create a portfolio using React to showcase
 
 Click on the deployed website and feel free to look around! 
 
-![portfolio](assets/portfolio.PNG)
+![portfolio](/Iia_Wolak_React_Portfolio/iia_portfolio/src/assets/portfolio.PNG)
     
 
 
