@@ -94,7 +94,7 @@ h1 {
   font-size: 50px;
   margin:auto;
 }
-.img{
+.projectimg{
   border-radius: 8px;
   flex-wrap: wrap;
   
@@ -105,4 +105,10 @@ img:hover {
 }
 .projectcard{
   padding-left: 10px;
+}
+.card-title
+{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 100px;
+  color: #1d0641;
 }
