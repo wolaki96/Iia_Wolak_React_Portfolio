@@ -16,7 +16,7 @@ export default function Project(props) {
                     <h2 className='projectlinks'>
                         
                         <a href={props.link} target="_blank" rel="noreferrer" className="deployedprojectlink">
-                            <img className="projectimg" alt="novelsips" src={props.img}height="250px"
+                            <img alt="novelsips" src={props.img}height="250px"
   width= "400px"></img>
                             </a>
 

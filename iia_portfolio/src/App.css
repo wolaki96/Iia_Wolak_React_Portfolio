@@ -94,7 +94,7 @@ h1 {
   font-size: 50px;
   margin:auto;
 }
-.projectimg{
+img{
   border-radius: 8px;
   flex-wrap: wrap;
   
@@ -111,4 +111,9 @@ img:hover {
   font-family:'Times New Roman', Times, serif;
   font-size: 100px;
   color: #1d0641;
+}
+.card-body{
+  color:#1d0641;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
