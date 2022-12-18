@@ -6,6 +6,7 @@ import PassWord from '../../assets/password.PNG'
 import Jate from '../../assets/jate1.PNG'
 import Inventory from '../../assets/inventory.PNG'
 import Schedule from '../../assets/schedule.png'
+import Haunted from '../../assets/haunted.png'
 
 export default function Portfolio() {
 
@@ -53,6 +54,13 @@ export default function Portfolio() {
                     repo: "https://github.com/wolaki96/Study_Scheduler",
                     img: Schedule   
                     },
+                    {
+                        name: 'Haunted Holidays',
+                        description: 'Provide a short description...',
+                        link: "https://boiling-ridge-27905.herokuapp.com/",
+                        repo: "https://github.com/KSoto18/Haunted-Holidays",
+                        img: Haunted  
+                        },
     ];
   return (
       <div className='projectpgcontainer'>
